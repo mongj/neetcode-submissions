@@ -1,11 +1,10 @@
-name: Notify Streaky Bot
+name: Notify Streaky Bot (Neetcode)
 
 on:
   push:
     branches: [main]
     paths:
       - "**/submission-*"
-      - "**/leetcode/*
 
 jobs:
   dispatch:
